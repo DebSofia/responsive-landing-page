@@ -61,6 +61,53 @@ header a:hover {
   background-color: black;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(media/footer_image.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-family: lora;
+  line-height: 1.5;
+}
+
+footer p {
+  font-family: lato;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+footer li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 900px) {
   header {
     padding: 60px 0;

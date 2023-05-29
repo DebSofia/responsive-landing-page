@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+body {
+  background-color: azure;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url(media/header_image.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: Lora;
+  padding: 200px 0px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+}
+
+header a {
+  display: inline-block;
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  background-color: azure;
+  padding: 15px;
+}
+
+header a:hover {
+  color: white;
+  background-color: black;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+}

@@ -97,6 +97,70 @@ section {
   grid-gap: 55px;
 }
 
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.secondary-section h2 {
+  text-align: center;
+  font-family: lora;
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
+.card {
+  background-color: white;
+  margin-top: 30px 0;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.card-body {
+  padding: 35px;
+}
+
+.card h4 {
+  text-align: center;
+  font-family: lora;
+  font-size: 25px;
+}
+
+.card p {
+  font-family: lato;
+  line-height: 1.5;
+}
+
+.card h5 {
+  font-family: lato;
+  margin-bottom: 35px;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+  font-family: lato;
+  padding: 10px;
+  background-color: azure;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+
+.btn:hover {
+  background-color: beige;
+}
+
+.image-responsive {
+  max-width: 100%;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
@@ -160,5 +224,10 @@ footer a {
   .grid-2-columns {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
   }
 }

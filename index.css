@@ -85,6 +85,7 @@ main p {
 img {
   max-width: 100%;
   padding: 10px;
+  filter: drop-shadow(3px 3px 10px rgb(105, 105, 104));
 }
 section {
   max-width: 1200px;
@@ -119,6 +120,7 @@ section {
   display: block;
   margin: 0 auto;
   max-width: 60%;
+  filter: drop-shadow(3px 3px 10px rgb(105, 105, 104));
 }
 
 .card-body {

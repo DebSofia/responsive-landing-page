@@ -100,7 +100,7 @@ section {
 .grid-3-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .secondary-section h2 {
@@ -161,10 +161,38 @@ section {
   max-width: 100%;
 }
 
+.embed {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.gallery {
+  background-color: white;
+  margin-bottom: 60px;
+}
+
+.gallery h2 {
+  padding: 25px;
+  font-family: lora;
+  text-align: center;
+  margin: 50px;
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 10px;
+}
+
+.repository {
+  font-family: lato;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 footer {
